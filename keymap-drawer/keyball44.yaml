@@ -315,3 +315,20 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [20, 19]
+  k: {t: '-', s: _}
+- p: [31, 32]
+  k: +
+- p: [4, 4, 5]
+  k: (
+- p: [6, 7]
+  k: )
+- p: [16, 17]
+  k: {t: '[', s: '{'}
+- p: [18, 19]
+  k: {t: ']', s: '}'}
+- p: [28, 29]
+  k: '{'
+- p: [30, 31]
+  k: '}'
