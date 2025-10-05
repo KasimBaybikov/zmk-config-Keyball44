@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -38,7 +38,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - Gui+$$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:apple-keyboard-command$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-tab$$', h: MOUSE}
